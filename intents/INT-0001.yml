@@ -1,0 +1,13 @@
+uid: INT-0001
+type: intent
+status: approved
+title: Angular applications are structured and written in one consistent style
+text: >-
+  The Angular Style Guide exists so that Angular applications across teams read as though
+  written by one author: a consistent way to name files and symbols, to structure an
+  application, and to write components, directives and services, so that any engineer can
+  locate, identify and change code they did not write, and keep responsibilities cleanly
+  separated.
+normative: false
+attrs:
+  source_ref: "Angular Style Guide"

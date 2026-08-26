@@ -1,0 +1,13 @@
+uid: SR-0025
+type: system_requirement
+status: approved
+title: Prefer HostListener and HostBinding decorators
+text: >-
+  Prefer the HostListener and HostBinding decorators over the host property of the
+  directive metadata, so the property and event bindings are consistent and easy to read
+  alongside their handlers.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: "Angular Style Guide: Directives — HostListener and HostBinding"

@@ -1,0 +1,12 @@
+uid: SR-0032
+type: system_requirement
+status: approved
+title: Name classes in upper camel case
+text: >-
+  Use upper camel case when naming classes, so they are easy to spot and distinguish from
+  other declarations.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: "Angular Style Guide: Coding Conventions — Classes"

@@ -1,0 +1,11 @@
+uid: UR-0004
+type: user_requirement
+status: approved
+title: Components
+text: >-
+  Rules governing how components are declared, decorated and kept lean.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Angular Style Guide: Components"

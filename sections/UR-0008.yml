@@ -1,0 +1,11 @@
+uid: UR-0008
+type: user_requirement
+status: approved
+title: Lifecycle Hooks
+text: >-
+  Rules governing the use of lifecycle hook interfaces.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Angular Style Guide: Lifecycle Hooks"

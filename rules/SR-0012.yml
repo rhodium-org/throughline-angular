@@ -1,0 +1,12 @@
+uid: SR-0012
+type: system_requirement
+status: approved
+title: Name pipes consistently
+text: >-
+  Use consistent names for all pipes named after their feature, using upper camel case for
+  the class and lower camel case for the pipe name string.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "Angular Style Guide: Naming — Pipe Names"

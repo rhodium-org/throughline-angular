@@ -1,0 +1,11 @@
+uid: UR-0009
+type: user_requirement
+status: approved
+title: Coding Conventions
+text: >-
+  Rules governing class, constant, interface, member and import conventions.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Angular Style Guide: Coding Conventions"

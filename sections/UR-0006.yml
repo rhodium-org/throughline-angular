@@ -1,0 +1,11 @@
+uid: UR-0006
+type: user_requirement
+status: approved
+title: Services
+text: >-
+  Rules governing services, their responsibilities and how they are provided.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Angular Style Guide: Services"

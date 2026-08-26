@@ -1,0 +1,12 @@
+uid: SR-0017
+type: system_requirement
+status: approved
+title: Give components an element selector
+text: >-
+  Give components an element selector rather than an attribute or class selector, because
+  a component is authored as an element in the DOM.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "Angular Style Guide: Components — Components as Elements"

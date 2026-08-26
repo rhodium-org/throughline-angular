@@ -1,0 +1,12 @@
+uid: SR-0001
+type: system_requirement
+status: approved
+title: Apply the single responsibility principle per file
+text: >-
+  Define one thing, such as a service or component, per file, so the file is easier to
+  read, maintain and avoid collisions in version control.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "Angular Style Guide: Single Responsibility — Rule of One"

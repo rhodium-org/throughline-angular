@@ -1,0 +1,12 @@
+uid: SR-0035
+type: system_requirement
+status: approved
+title: Do not underscore-prefix private members
+text: >-
+  Use lower camel case to name properties and methods, and avoid prefixing private
+  properties and methods with an underscore.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: "Angular Style Guide: Coding Conventions — Properties and Methods"

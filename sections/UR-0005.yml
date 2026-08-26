@@ -1,0 +1,11 @@
+uid: UR-0005
+type: user_requirement
+status: approved
+title: Directives
+text: >-
+  Rules governing when and how attribute directives are written.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Angular Style Guide: Directives"

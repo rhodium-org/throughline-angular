@@ -1,0 +1,12 @@
+uid: SR-0002
+type: system_requirement
+status: approved
+title: Keep functions small
+text: >-
+  Define small functions, generally no more than 75 lines, so they are easier to test,
+  read and reuse.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "Angular Style Guide: Single Responsibility — Small Functions"

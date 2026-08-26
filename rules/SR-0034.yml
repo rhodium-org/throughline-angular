@@ -1,0 +1,12 @@
+uid: SR-0034
+type: system_requirement
+status: approved
+title: Name interfaces without an I prefix
+text: >-
+  Name an interface using upper camel case, and consider not adding an I prefix to the
+  interface name.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: "Angular Style Guide: Coding Conventions — Interfaces"

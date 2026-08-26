@@ -1,0 +1,11 @@
+uid: UR-0002
+type: user_requirement
+status: approved
+title: Naming
+text: >-
+  Rules governing file names, symbol names, selectors and test file names.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Angular Style Guide: Naming"

@@ -1,0 +1,13 @@
+uid: SR-0029
+type: system_requirement
+status: approved
+title: Use the Injectable class decorator
+text: >-
+  Use the injectable class decorator to declare a class's dependencies for injection,
+  rather than injecting dependencies with parameter decorators where the class decorator
+  suffices.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Angular Style Guide: Services — Use Injectable"

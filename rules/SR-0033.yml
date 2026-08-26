@@ -1,0 +1,12 @@
+uid: SR-0033
+type: system_requirement
+status: approved
+title: Use const for values that do not change
+text: >-
+  Declare variables with const if their values do not change during the application's
+  lifetime, so intent is clear and reassignment is prevented.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: "Angular Style Guide: Coding Conventions — Constants"

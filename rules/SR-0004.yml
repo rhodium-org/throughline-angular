@@ -1,0 +1,12 @@
+uid: SR-0004
+type: system_requirement
+status: approved
+title: Separate file names with dots and dashes
+text: >-
+  Use dashes to separate words in the descriptive part of a file name and dots to separate
+  the name from the type.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "Angular Style Guide: Naming — Dots and Dashes"

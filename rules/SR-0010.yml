@@ -1,0 +1,11 @@
+uid: SR-0010
+type: system_requirement
+status: approved
+title: Name directive selectors in lower camel case
+text: >-
+  Use lower camel case for naming the selectors of attribute directives.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "Angular Style Guide: Naming — Directive Selectors"

@@ -1,0 +1,12 @@
+uid: SR-0027
+type: system_requirement
+status: approved
+title: Give a service a single responsibility
+text: >-
+  Create a service with a single responsibility encapsulated by its context; once it takes
+  on more than one, create a new service.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Angular Style Guide: Services — Single Responsibility"
