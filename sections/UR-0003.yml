@@ -1,11 +1,11 @@
 uid: UR-0003
 type: user_requirement
-status: approved
+status: proposed
 title: Application Structure and NgModules
-text: >-
-  Rules governing how an application is organised into folders and modules.
+text: Rules governing how an application is organised into folders and modules.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "Angular Style Guide: Application Structure and NgModules"
+  source_ref: 'Angular Style Guide: Application Structure and NgModules'

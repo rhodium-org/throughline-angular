@@ -1,12 +1,13 @@
 uid: SR-0015
 type: system_requirement
-status: approved
+status: proposed
 title: Organise folders by feature
-text: >-
-  Create folders named for the feature area they represent, so a developer can locate code
-  and identify what it does at a glance and the structure stays flat.
+text: Create folders named for the feature area they represent, so a developer can
+  locate code and identify what it does at a glance and the structure stays flat.
+normative: true
 links:
 - target: UR-0003
   type: implements
 attrs:
-  source_ref: "Angular Style Guide: Application Structure and NgModules — Folders by Feature"
+  source_ref: 'Angular Style Guide: Application Structure and NgModules — Folders
+    by Feature'

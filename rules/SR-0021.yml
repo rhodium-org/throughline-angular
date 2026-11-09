@@ -1,12 +1,13 @@
 uid: SR-0021
 type: system_requirement
-status: approved
+status: proposed
 title: Delegate complex logic to services
-text: >-
-  Limit logic in a component to only that required for the view, and delegate all other
-  logic to services, so components stay lean and logic stays reusable and testable.
+text: Limit logic in a component to only that required for the view, and delegate
+  all other logic to services, so components stay lean and logic stays reusable and
+  testable.
+normative: true
 links:
 - target: UR-0004
   type: implements
 attrs:
-  source_ref: "Angular Style Guide: Components — Delegate to Services"
+  source_ref: 'Angular Style Guide: Components — Delegate to Services'

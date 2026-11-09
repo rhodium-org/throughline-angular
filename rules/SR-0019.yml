@@ -1,13 +1,13 @@
 uid: SR-0019
 type: system_requirement
-status: approved
+status: proposed
 title: Decorate input and output properties
-text: >-
-  Use the input and output decorators on class properties rather than the inputs and
-  outputs arrays of the component metadata, so the property is easy to identify and
-  change.
+text: Use the input and output decorators on class properties rather than the inputs
+  and outputs arrays of the component metadata, so the property is easy to identify
+  and change.
+normative: true
 links:
 - target: UR-0004
   type: implements
 attrs:
-  source_ref: "Angular Style Guide: Components — Decorate Inputs and Outputs"
+  source_ref: 'Angular Style Guide: Components — Decorate Inputs and Outputs'

@@ -1,12 +1,12 @@
 uid: SR-0007
 type: system_requirement
-status: approved
+status: proposed
 title: Put bootstrapping logic in main.ts
-text: >-
-  Put bootstrapping and platform logic for the application in a file named main.ts, and
-  keep application logic out of it.
+text: Put bootstrapping and platform logic for the application in a file named main.ts,
+  and keep application logic out of it.
+normative: true
 links:
 - target: UR-0002
   type: implements
 attrs:
-  source_ref: "Angular Style Guide: Naming — Bootstrapping"
+  source_ref: 'Angular Style Guide: Naming — Bootstrapping'

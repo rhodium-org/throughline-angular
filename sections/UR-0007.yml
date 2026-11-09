@@ -1,11 +1,11 @@
 uid: UR-0007
 type: user_requirement
-status: approved
+status: proposed
 title: Data Services
-text: >-
-  Rules governing isolating server communication behind a data service.
+text: Rules governing isolating server communication behind a data service.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "Angular Style Guide: Data Services"
+  source_ref: 'Angular Style Guide: Data Services'

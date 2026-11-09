@@ -1,12 +1,12 @@
 uid: SR-0028
 type: system_requirement
-status: approved
+status: proposed
 title: Provide a service at the root injector
-text: >-
-  Provide an application-wide service with the root injector by setting providedIn to root
-  in the injectable metadata, so Angular can tree-shake unused services.
+text: Provide an application-wide service with the root injector by setting providedIn
+  to root in the injectable metadata, so Angular can tree-shake unused services.
+normative: true
 links:
 - target: UR-0006
   type: implements
 attrs:
-  source_ref: "Angular Style Guide: Services — Providing a Service"
+  source_ref: 'Angular Style Guide: Services — Providing a Service'

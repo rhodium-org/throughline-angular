@@ -1,12 +1,12 @@
 uid: SR-0006
 type: system_requirement
-status: approved
+status: proposed
 title: Suffix service names appropriately
-text: >-
-  Name services with a consistent name after their feature; suffix a class with Service
-  when its type is otherwise unclear, for example CreditService.
+text: Name services with a consistent name after their feature; suffix a class with
+  Service when its type is otherwise unclear, for example CreditService.
+normative: true
 links:
 - target: UR-0002
   type: implements
 attrs:
-  source_ref: "Angular Style Guide: Naming — Service Names"
+  source_ref: 'Angular Style Guide: Naming — Service Names'

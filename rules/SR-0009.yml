@@ -1,12 +1,12 @@
 uid: SR-0009
 type: system_requirement
-status: approved
+status: proposed
 title: Prefix component selectors with a custom prefix
-text: >-
-  Use a custom, hyphenated, lowercase prefix for component element selectors, so a
-  component can be identified and grouped and to prevent name collisions.
+text: Use a custom, hyphenated, lowercase prefix for component element selectors,
+  so a component can be identified and grouped and to prevent name collisions.
+normative: true
 links:
 - target: UR-0002
   type: implements
 attrs:
-  source_ref: "Angular Style Guide: Naming — Component Custom Prefix"
+  source_ref: 'Angular Style Guide: Naming — Component Custom Prefix'

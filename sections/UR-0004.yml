@@ -1,11 +1,11 @@
 uid: UR-0004
 type: user_requirement
-status: approved
+status: proposed
 title: Components
-text: >-
-  Rules governing how components are declared, decorated and kept lean.
+text: Rules governing how components are declared, decorated and kept lean.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "Angular Style Guide: Components"
+  source_ref: 'Angular Style Guide: Components'

@@ -1,12 +1,12 @@
 uid: SR-0011
 type: system_requirement
-status: approved
+status: proposed
 title: Prefix directive selectors with a custom prefix
-text: >-
-  Spell non-element directive selectors in lower camel case prefixed with a custom prefix,
-  so the source of a directive is clear.
+text: Spell non-element directive selectors in lower camel case prefixed with a custom
+  prefix, so the source of a directive is clear.
+normative: true
 links:
 - target: UR-0002
   type: implements
 attrs:
-  source_ref: "Angular Style Guide: Naming — Directive Custom Prefix"
+  source_ref: 'Angular Style Guide: Naming — Directive Custom Prefix'

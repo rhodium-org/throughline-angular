@@ -1,11 +1,11 @@
 uid: UR-0001
 type: user_requirement
-status: approved
+status: proposed
 title: Single Responsibility
-text: >-
-  Rules governing keeping each file and function focused on a single responsibility.
+text: Rules governing keeping each file and function focused on a single responsibility.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "Angular Style Guide: Single Responsibility"
+  source_ref: 'Angular Style Guide: Single Responsibility'

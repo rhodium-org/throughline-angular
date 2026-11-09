@@ -1,12 +1,12 @@
 uid: SR-0022
 type: system_requirement
-status: approved
+status: proposed
 title: Do not prefix output properties
-text: >-
-  Name events on output properties without the prefix on, and name the handler method with
-  the prefix on followed by the event name.
+text: Name events on output properties without the prefix on, and name the handler
+  method with the prefix on followed by the event name.
+normative: true
 links:
 - target: UR-0004
   type: implements
 attrs:
-  source_ref: "Angular Style Guide: Components — Output Naming"
+  source_ref: 'Angular Style Guide: Components — Output Naming'

@@ -1,12 +1,13 @@
 uid: SR-0014
 type: system_requirement
-status: approved
+status: proposed
 title: Apply the LIFT principle
-text: >-
-  Structure the application so you can Locate code quickly, Identify it at a glance, keep
-  the Flattest structure you can, and Try to be DRY, in that order of priority.
+text: Structure the application so you can Locate code quickly, Identify it at a
+  glance, keep the Flattest structure you can, and Try to be DRY, in that order of
+  priority.
+normative: true
 links:
 - target: UR-0003
   type: implements
 attrs:
-  source_ref: "Angular Style Guide: Application Structure and NgModules — LIFT"
+  source_ref: 'Angular Style Guide: Application Structure and NgModules — LIFT'

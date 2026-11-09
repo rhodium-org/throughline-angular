@@ -1,12 +1,12 @@
 uid: SR-0026
 type: system_requirement
-status: approved
+status: proposed
 title: Treat services as singletons
-text: >-
-  Use a service as a singleton within the same injector, and use it for sharing data and
-  functionality across components.
+text: Use a service as a singleton within the same injector, and use it for sharing
+  data and functionality across components.
+normative: true
 links:
 - target: UR-0006
   type: implements
 attrs:
-  source_ref: "Angular Style Guide: Services — Services as Singletons"
+  source_ref: 'Angular Style Guide: Services — Services as Singletons'

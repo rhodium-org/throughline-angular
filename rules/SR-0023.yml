@@ -1,12 +1,12 @@
 uid: SR-0023
 type: system_requirement
-status: approved
+status: proposed
 title: Order component members consistently
-text: >-
-  Place properties first and methods after, with public members before private members,
-  each ordered alphabetically, so the class is predictable to read.
+text: Place properties first and methods after, with public members before private
+  members, each ordered alphabetically, so the class is predictable to read.
+normative: true
 links:
 - target: UR-0004
   type: implements
 attrs:
-  source_ref: "Angular Style Guide: Components — Member Sequence"
+  source_ref: 'Angular Style Guide: Components — Member Sequence'

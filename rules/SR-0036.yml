@@ -1,12 +1,12 @@
 uid: SR-0036
 type: system_requirement
-status: approved
+status: proposed
 title: Order and group import lines
-text: >-
-  List import lines alphabetised by module, and leave one blank line between third-party
-  imports and application imports.
+text: List import lines alphabetised by module, and leave one blank line between
+  third-party imports and application imports.
+normative: true
 links:
 - target: UR-0009
   type: implements
 attrs:
-  source_ref: "Angular Style Guide: Coding Conventions — Import Line Spacing"
+  source_ref: 'Angular Style Guide: Coding Conventions — Import Line Spacing'

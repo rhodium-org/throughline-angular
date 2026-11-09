@@ -1,12 +1,12 @@
 uid: SR-0020
 type: system_requirement
-status: approved
+status: proposed
 title: Avoid aliasing inputs and outputs
-text: >-
-  Avoid aliasing inputs and outputs except when it serves an important purpose, because
-  two names for one property is confusing.
+text: Avoid aliasing inputs and outputs except when it serves an important purpose,
+  because two names for one property is confusing.
+normative: true
 links:
 - target: UR-0004
   type: implements
 attrs:
-  source_ref: "Angular Style Guide: Components — Avoid Aliasing"
+  source_ref: 'Angular Style Guide: Components — Avoid Aliasing'

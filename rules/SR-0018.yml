@@ -1,12 +1,12 @@
 uid: SR-0018
 type: system_requirement
-status: approved
+status: proposed
 title: Extract non-trivial templates and styles to files
-text: >-
-  Extract templates and styles into a separate file when they are more than three lines
-  long, so the code is easier to read and maintain.
+text: Extract templates and styles into a separate file when they are more than three
+  lines long, so the code is easier to read and maintain.
+normative: true
 links:
 - target: UR-0004
   type: implements
 attrs:
-  source_ref: "Angular Style Guide: Components — Extract Templates and Styles"
+  source_ref: 'Angular Style Guide: Components — Extract Templates and Styles'
