@@ -15,7 +15,7 @@ It carries
 ## Purpose
 
 <!-- tl:item INT-0001 -->
-**INT-0001 — Angular applications are structured and written in one consistent style** — `intent`, status `approved`
+**INT-0001 — Angular applications are structured and written in one consistent style** — `intent`, status `proposed`
 
 > The Angular Style Guide exists so that Angular applications across teams read as though written by one author: a consistent way to name files and symbols, to structure an application, and to write components, directives and services, so that any engineer can locate, identify and change code they did not write, and keep responsibilities cleanly separated.
 
@@ -25,7 +25,7 @@ It carries
 ## Single Responsibility
 
 <!-- tl:item UR-0001 -->
-**UR-0001 — Single Responsibility** — `user_requirement`, status `approved`
+**UR-0001 — Single Responsibility** — `user_requirement`, status `proposed`
 
 > Rules governing keeping each file and function focused on a single responsibility.
 
@@ -37,14 +37,14 @@ It carries
 <!-- tl:table type == 'system_requirement' and attrs.get('source_ref', '').startswith('Angular Style Guide: Single Responsibility') -->
 | UID | Type | Status | Title |
 |---|---|---|---|
-| SR-0001 | system_requirement | approved | Apply the single responsibility principle per file |
-| SR-0002 | system_requirement | approved | Keep functions small |
+| SR-0001 | system_requirement | proposed | Apply the single responsibility principle per file |
+| SR-0002 | system_requirement | proposed | Keep functions small |
 <!-- tl:end -->
 
 ## Naming
 
 <!-- tl:item UR-0002 -->
-**UR-0002 — Naming** — `user_requirement`, status `approved`
+**UR-0002 — Naming** — `user_requirement`, status `proposed`
 
 > Rules governing file names, symbol names, selectors and test file names.
 
@@ -56,23 +56,23 @@ It carries
 <!-- tl:table type == 'system_requirement' and attrs.get('source_ref', '').startswith('Angular Style Guide: Naming') -->
 | UID | Type | Status | Title |
 |---|---|---|---|
-| SR-0003 | system_requirement | approved | Follow the feature-then-type naming pattern |
-| SR-0004 | system_requirement | approved | Separate file names with dots and dashes |
-| SR-0005 | system_requirement | approved | Name symbols and files consistently |
-| SR-0006 | system_requirement | approved | Suffix service names appropriately |
-| SR-0007 | system_requirement | approved | Put bootstrapping logic in main.ts |
-| SR-0008 | system_requirement | approved | Name component element selectors in dashed case |
-| SR-0009 | system_requirement | approved | Prefix component selectors with a custom prefix |
-| SR-0010 | system_requirement | approved | Name directive selectors in lower camel case |
-| SR-0011 | system_requirement | approved | Prefix directive selectors with a custom prefix |
-| SR-0012 | system_requirement | approved | Name pipes consistently |
-| SR-0013 | system_requirement | approved | Name unit test files after the tested file |
+| SR-0003 | system_requirement | proposed | Follow the feature-then-type naming pattern |
+| SR-0004 | system_requirement | proposed | Separate file names with dots and dashes |
+| SR-0005 | system_requirement | proposed | Name symbols and files consistently |
+| SR-0006 | system_requirement | proposed | Suffix service names appropriately |
+| SR-0007 | system_requirement | proposed | Put bootstrapping logic in main.ts |
+| SR-0008 | system_requirement | proposed | Name component element selectors in dashed case |
+| SR-0009 | system_requirement | proposed | Prefix component selectors with a custom prefix |
+| SR-0010 | system_requirement | proposed | Name directive selectors in lower camel case |
+| SR-0011 | system_requirement | proposed | Prefix directive selectors with a custom prefix |
+| SR-0012 | system_requirement | proposed | Name pipes consistently |
+| SR-0013 | system_requirement | proposed | Name unit test files after the tested file |
 <!-- tl:end -->
 
 ## Application Structure and NgModules
 
 <!-- tl:item UR-0003 -->
-**UR-0003 — Application Structure and NgModules** — `user_requirement`, status `approved`
+**UR-0003 — Application Structure and NgModules** — `user_requirement`, status `proposed`
 
 > Rules governing how an application is organised into folders and modules.
 
@@ -84,15 +84,15 @@ It carries
 <!-- tl:table type == 'system_requirement' and attrs.get('source_ref', '').startswith('Angular Style Guide: Application Structure and NgModules') -->
 | UID | Type | Status | Title |
 |---|---|---|---|
-| SR-0014 | system_requirement | approved | Apply the LIFT principle |
-| SR-0015 | system_requirement | approved | Organise folders by feature |
-| SR-0016 | system_requirement | approved | Group shared declarables in a shared module |
+| SR-0014 | system_requirement | proposed | Apply the LIFT principle |
+| SR-0015 | system_requirement | proposed | Organise folders by feature |
+| SR-0016 | system_requirement | proposed | Group shared declarables in a shared module |
 <!-- tl:end -->
 
 ## Components
 
 <!-- tl:item UR-0004 -->
-**UR-0004 — Components** — `user_requirement`, status `approved`
+**UR-0004 — Components** — `user_requirement`, status `proposed`
 
 > Rules governing how components are declared, decorated and kept lean.
 
@@ -104,19 +104,19 @@ It carries
 <!-- tl:table type == 'system_requirement' and attrs.get('source_ref', '').startswith('Angular Style Guide: Components') -->
 | UID | Type | Status | Title |
 |---|---|---|---|
-| SR-0017 | system_requirement | approved | Give components an element selector |
-| SR-0018 | system_requirement | approved | Extract non-trivial templates and styles to files |
-| SR-0019 | system_requirement | approved | Decorate input and output properties |
-| SR-0020 | system_requirement | approved | Avoid aliasing inputs and outputs |
-| SR-0021 | system_requirement | approved | Delegate complex logic to services |
-| SR-0022 | system_requirement | approved | Do not prefix output properties |
-| SR-0023 | system_requirement | approved | Order component members consistently |
+| SR-0017 | system_requirement | proposed | Give components an element selector |
+| SR-0018 | system_requirement | proposed | Extract non-trivial templates and styles to files |
+| SR-0019 | system_requirement | proposed | Decorate input and output properties |
+| SR-0020 | system_requirement | proposed | Avoid aliasing inputs and outputs |
+| SR-0021 | system_requirement | proposed | Delegate complex logic to services |
+| SR-0022 | system_requirement | proposed | Do not prefix output properties |
+| SR-0023 | system_requirement | proposed | Order component members consistently |
 <!-- tl:end -->
 
 ## Directives
 
 <!-- tl:item UR-0005 -->
-**UR-0005 — Directives** — `user_requirement`, status `approved`
+**UR-0005 — Directives** — `user_requirement`, status `proposed`
 
 > Rules governing when and how attribute directives are written.
 
@@ -128,14 +128,14 @@ It carries
 <!-- tl:table type == 'system_requirement' and attrs.get('source_ref', '').startswith('Angular Style Guide: Directives') -->
 | UID | Type | Status | Title |
 |---|---|---|---|
-| SR-0024 | system_requirement | approved | Use an attribute directive for template-free behaviour |
-| SR-0025 | system_requirement | approved | Prefer HostListener and HostBinding decorators |
+| SR-0024 | system_requirement | proposed | Use an attribute directive for template-free behaviour |
+| SR-0025 | system_requirement | proposed | Prefer HostListener and HostBinding decorators |
 <!-- tl:end -->
 
 ## Services
 
 <!-- tl:item UR-0006 -->
-**UR-0006 — Services** — `user_requirement`, status `approved`
+**UR-0006 — Services** — `user_requirement`, status `proposed`
 
 > Rules governing services, their responsibilities and how they are provided.
 
@@ -147,16 +147,16 @@ It carries
 <!-- tl:table type == 'system_requirement' and attrs.get('source_ref', '').startswith('Angular Style Guide: Services') -->
 | UID | Type | Status | Title |
 |---|---|---|---|
-| SR-0026 | system_requirement | approved | Treat services as singletons |
-| SR-0027 | system_requirement | approved | Give a service a single responsibility |
-| SR-0028 | system_requirement | approved | Provide a service at the root injector |
-| SR-0029 | system_requirement | approved | Use the Injectable class decorator |
+| SR-0026 | system_requirement | proposed | Treat services as singletons |
+| SR-0027 | system_requirement | proposed | Give a service a single responsibility |
+| SR-0028 | system_requirement | proposed | Provide a service at the root injector |
+| SR-0029 | system_requirement | proposed | Use the Injectable class decorator |
 <!-- tl:end -->
 
 ## Data Services
 
 <!-- tl:item UR-0007 -->
-**UR-0007 — Data Services** — `user_requirement`, status `approved`
+**UR-0007 — Data Services** — `user_requirement`, status `proposed`
 
 > Rules governing isolating server communication behind a data service.
 
@@ -168,13 +168,13 @@ It carries
 <!-- tl:table type == 'system_requirement' and attrs.get('source_ref', '').startswith('Angular Style Guide: Data Services') -->
 | UID | Type | Status | Title |
 |---|---|---|---|
-| SR-0030 | system_requirement | approved | Talk to the server through a data service |
+| SR-0030 | system_requirement | proposed | Talk to the server through a data service |
 <!-- tl:end -->
 
 ## Lifecycle Hooks
 
 <!-- tl:item UR-0008 -->
-**UR-0008 — Lifecycle Hooks** — `user_requirement`, status `approved`
+**UR-0008 — Lifecycle Hooks** — `user_requirement`, status `proposed`
 
 > Rules governing the use of lifecycle hook interfaces.
 
@@ -186,13 +186,13 @@ It carries
 <!-- tl:table type == 'system_requirement' and attrs.get('source_ref', '').startswith('Angular Style Guide: Lifecycle Hooks') -->
 | UID | Type | Status | Title |
 |---|---|---|---|
-| SR-0031 | system_requirement | approved | Implement lifecycle hook interfaces |
+| SR-0031 | system_requirement | proposed | Implement lifecycle hook interfaces |
 <!-- tl:end -->
 
 ## Coding Conventions
 
 <!-- tl:item UR-0009 -->
-**UR-0009 — Coding Conventions** — `user_requirement`, status `approved`
+**UR-0009 — Coding Conventions** — `user_requirement`, status `proposed`
 
 > Rules governing class, constant, interface, member and import conventions.
 
@@ -204,10 +204,10 @@ It carries
 <!-- tl:table type == 'system_requirement' and attrs.get('source_ref', '').startswith('Angular Style Guide: Coding Conventions') -->
 | UID | Type | Status | Title |
 |---|---|---|---|
-| SR-0032 | system_requirement | approved | Name classes in upper camel case |
-| SR-0033 | system_requirement | approved | Use const for values that do not change |
-| SR-0034 | system_requirement | approved | Name interfaces without an I prefix |
-| SR-0035 | system_requirement | approved | Do not underscore-prefix private members |
-| SR-0036 | system_requirement | approved | Order and group import lines |
+| SR-0032 | system_requirement | proposed | Name classes in upper camel case |
+| SR-0033 | system_requirement | proposed | Use const for values that do not change |
+| SR-0034 | system_requirement | proposed | Name interfaces without an I prefix |
+| SR-0035 | system_requirement | proposed | Do not underscore-prefix private members |
+| SR-0036 | system_requirement | proposed | Order and group import lines |
 <!-- tl:end -->
 
